@@ -17,7 +17,7 @@ window.configure(fg_color="#fb8c00")  # цвет фона
 top_frame = ctk.CTkFrame(window, width=800, height=50, fg_color="#212121",
                          corner_radius=0)  # на окне window, длина ширина, цвет, обнулил кринж скругления
 top_frame.pack(fill="x")  # упаковал и растянул по оси x с юзанием pack
-
+#ddfdfdfdfdfd
 # На top_frame размещаю элементы, будет показан тот город, если будет корректный ввод
 city_font = ctk.CTkFont(size=15)
 city_label = ctk.CTkLabel(top_frame, text='', text_color='#fff',
